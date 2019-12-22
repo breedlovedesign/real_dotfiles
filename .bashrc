@@ -63,3 +63,4 @@ source ~/.functions
 export PS1="\w[\`parse_git_branch\`]\\$ "
 alias ls='gls   --group-directories-first --color=auto'
 alias ll='ls -Alh'
+source ~/.aliases
