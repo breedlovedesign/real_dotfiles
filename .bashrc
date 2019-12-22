@@ -58,7 +58,7 @@ function parse_git_dirty {
 		echo ""
 	fi
 }
-
+# eval $( dircolors -b $HOME/.dircolors )
 source ~/.functions
 export PS1="\w[\`parse_git_branch\`]\\$ "
 alias ls='gls   --group-directories-first --color=auto'
