@@ -1,6 +1,6 @@
 
 export PATH="$HOME/.rbenv/bin:$PATH"
-export PATH="$HOME/Library/Python/2.7/bin:$PATH"
+# export PATH="$HOME/Library/Python/2.7/bin:$PATH"
 # libxml2 whereabouts for compilers 
 export LDFLAGS="-L/usr/local/opt/libxml2/lib"
 export CPPFLAGS="-I/usr/local/opt/libxml2/include"
