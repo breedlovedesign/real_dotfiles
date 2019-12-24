@@ -1,5 +1,10 @@
 #!/bin/bash
-
+function vske() {
+	code ~/Library/Application\ Support/SketchUp\ 2019/SketchUp/Plugins/
+}
+function vsk() {
+	code ~/Sync/devo/sketchup_extensions/render_svg
+}
 # Create a new directory and enter it
 function md() {
 	mkdir -p "$@" && cd "$@"
